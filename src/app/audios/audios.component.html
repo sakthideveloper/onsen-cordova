@@ -1,0 +1,19 @@
+<ons-page>
+  <div class="background"></div>
+  <ons-row>
+    <ons-col width="50%" style="text-align:center">
+
+        <ons-button  modifier="material large" (click)="onClickAudio()">AUDIO</ons-button>
+      </ons-col>
+
+
+  </ons-row>
+
+  <ons-list>
+    <ons-list-header>Audio</ons-list-header>
+    <ons-list-item>
+      <p #media>Recording audio...</p>
+      <p #audio_position></p>
+    </ons-list-item>
+  </ons-list>
+</ons-page>
